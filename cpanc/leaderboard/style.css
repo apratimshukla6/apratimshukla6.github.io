@@ -17,13 +17,28 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+/*--------------------
+Map
+--------------------*/
+.map {
+  position: absolute;
+  top: 10%;
+  border-radius: 20px;
+  box-shadow: 0 7px 30px rgba(62, 9, 11, 0.3);
+}
+.map iframe{
+  border: 5px solid #3a404d;
+  border-radius: 20px;
+  background: rgba(0,119,190,0.8);
+}
 /*--------------------
 Leaderboard
 --------------------*/
 .leaderboard {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 90%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 285px;
