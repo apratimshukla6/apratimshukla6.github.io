@@ -597,7 +597,7 @@ pre {
 
   @media (min-width:320px) {
     .container {
-      max-width: 540px; }
+      max-width: 100%; }
       
       #mobilenofloat{
           float: none ;
@@ -608,7 +608,7 @@ pre {
 }
   @media (min-width: 576px) {
     .container {
-      max-width: 540px; }
+      max-width:100%; }
       
       #mobilenofloat{
           float: right;
@@ -619,7 +619,7 @@ pre {
 }
   @media (min-width: 768px) {
     .container {
-      max-width: 720px; } #mobilenofloat{
+      max-width: 100%; } #mobilenofloat{
           float: right;
       }
 #tobepadded{
@@ -628,7 +628,7 @@ pre {
 }
   @media (min-width: 992px) {
     .container {
-      max-width: 960px; } #mobilenofloat{
+      max-width: 100%; } #mobilenofloat{
           float: right;
       }
 #tobepadded{
@@ -637,7 +637,7 @@ pre {
 }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; }#mobilenofloat{
+      max-width: 100%;}#mobilenofloat{
           float:right;
       }
 #tobepadded{
