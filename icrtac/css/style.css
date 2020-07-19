@@ -92,6 +92,52 @@ address {
   font-style: normal;
   line-height: inherit; }
 
+@media (max-width: 800px) {
+  #color {
+    color: #fab1a0;
+  }
+  
+  .img-red {
+    display: none;
+  }
+
+  #whiten {
+    color: #e15f41;
+  }
+}
+
+.img-red {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 40%;
+  z-index: -1;
+}
+
+.one {
+  top: 0;
+}
+
+.two {
+  top: 1160px;
+}  
+
+.three {
+  top: 2320px;
+}
+
+.pos {
+  position: relative;
+  bottom: 600px;
+}
+
+.color {
+  color: #eb4d4b;
+}
+
 ol,
 ul,
 dl {
