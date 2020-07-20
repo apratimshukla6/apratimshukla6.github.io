@@ -8486,7 +8486,7 @@ h1, h2, h3, h4, h5,
       text-transform: uppercase; }
 
 .request-form {
-  background: #fff;
+  background: rgba(255,255,255,0.8);
   padding: 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
