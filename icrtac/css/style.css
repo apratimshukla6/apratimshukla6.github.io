@@ -8486,7 +8486,7 @@ h1, h2, h3, h4, h5,
       text-transform: uppercase; }
 
 .request-form {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.5);
   padding: 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -8638,6 +8638,7 @@ h1, h2, h3, h4, h5,
 .bg-primary {
   background: #1162fb; }
 
+
 .btn {
   cursor: pointer;
   -webkit-border-radius: 3px;
@@ -8649,7 +8650,7 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #1162fb !important;
+    background: rgba(17, 98, 251, 0.8) !important;
     border: 1px solid #1162fb !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
