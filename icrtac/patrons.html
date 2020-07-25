@@ -32,24 +32,24 @@
   </head>
   <body style="overflow-x: hidden;">
     
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html" style="background: rgba(255,255,255,0.5);padding: 5px;border: 0px;border-radius: 10px;"><b>ICRTAC-2020</b></a>
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" onscroll = "disable()" >
+	    <div class="container hver-nav">
+	      <a class="navbar-brand" href="index.html" style="padding: 5px;border: 0px;border-radius: 10px;"><b>ICRTAC-2020</b></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white;">
+	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item active"><a href="patrons.html" class="nav-link">Patrons</a></li>
-	          <li class="nav-item"><a href="#" class="nav-link">Keynote Speakers</a></li>
-	          <li class="nav-item"><a href="registration.html" class="nav-link">Registration</a></li>
-	          <li class="nav-item"><a href="submission.html" class="nav-link">Submissions</a></li>
-	          <li class="nav-item"><a href="#" class="nav-link">Accepted Papers and Schedule</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">VISA</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Committe</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Sponsors</a></li>
+	          <li class="nav-item"><a href="index.html" class="nav-link" id = "color">Home</a></li>
+	          <li class="nav-item"><a href="patrons.html" class="nav-link" id = "color">Patrons</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link" id = "color">Keynote Speakers</a></li>
+	          <li class="nav-item"><a href="registration.html" class="nav-link" id = "color">Registration</a></li>
+	          <li class="nav-item"><a href="submission.html" class="nav-link" id = "color">Submissions</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link" id = "color">Accepted Papers and Schedule</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" id = "color">VISA</a></li>
+            <li class="nav-item"><a href="committee.html" class="nav-link" id = "color">Committe</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" id = "color">Sponsors</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -61,8 +61,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-5">
-            <h1 class="mb-3 bread" style="background: rgba(255,255,255,0.5);padding: 5px;border: 0px;border-radius: 10px;width: 170px;">Patrons</h1>
-              <p class="breadcrumbs" style="background: rgba(255,255,255,0.5);padding: 5px;border: 0px;border-radius: 10px;width: 200px;"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="patrons.html">Patrons</a></span></p>
+            <h1 class="mb-3 bread hver-brand" style="padding: 10px;border: 0px;border-radius: 10px;width: 170px;" id = "cli">Patrons</h1>
+              <p class="breadcrumbs" style="padding: 5px;border: 0px;border-radius: 10px;width: 200px;"><span class="mr-2"><a href="index.html" class = "crumbs">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="patrons.html">Patrons</a></span></p>
           </div>
         </div>
       </div>
@@ -309,70 +309,81 @@
 
     <section class="section route" id="topics-route" style="padding: 5%">
 			
+
 			<div class="container">
-						<div class="row aln-center" style="display: table;margin: 0 auto;">
-							<div class="col-4-md col-6-lg">
+						<div class="row aln-center mb-4">
+              <img src = "images/42840.svg" class = "myback">
+							<div class="col-4-md col-6-lg cont shift-down">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/gViswanathan.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images/gViswanathan.jpg" class = "imgs mb-4" alt="" /></a>
 									<h3><a href="#">Dr. G. Viswanathan</a></h3>
 									<p>Founder & Chancellor,VIT</p>
 								</section>
 							</div>
-							<div class="col-4-md col-6-lg">
+             </div>
+             <div class="row aln-center mb-4"> 
+							<div class="col-4-md col-6-lg cont">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/sankarViswanathan.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images/sankarViswanathan.jpg" class = "imgs mb-4" alt="" /></a>
 									<h3><a href="#">Shri Sankar Viswanathan</a></h3>
 									<p>Vice President,VIT</p>
 								</section>
 							</div>
-							<div class="col-4-md col-6-lg">
+             </div>
+             <div class="row aln-center mb-4"> 
+							<div class="col-4-md col-6-lg cont">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/sekarViswanathan.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images/sekarViswanathan.jpg" class = "imgs mb-4" alt="" /></a>
 									<h3><a href="#">Dr. Sekar Viswanathan</a></h3>
 									<p>Vice President,VIT</p>
 								</section>
 							</div>
-							<div class="col-4-md col-12-lg">
+             </div>
+             <div class="row aln-center mb-4"> 
+							<div class="col-4-md col-12-lg cont">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/gVSelvam.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images/gVSelvam.jpg" class = "imgs mb-4" alt="" /></a>
 									<h3><a href="#">Shri G V Selvam</a></h3>
 									<p>Vice President,VIT</p>
 								</section>
 							</div>
-							<div class="col-4-md col-12-lg">
+             </div>
+             <div class="row aln-center mb-4"> 
+							<div class="col-4-md col-12-lg cont">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/anandASamuel.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images/anandASamuel.jpg" class = "imgs mb-4" alt="" /></a>
 									<h3><a href="#">Dr. Anand A. Samuel</a></h3>
 									<p>Vice Chancellor,VIT</p>
 								</section>
 							</div>
-                            <div class="col-4-md col-12-lg">
+             </div>
+             <div class="row aln-center mag"> 
+              <div class="col-4-md col-12-lg cont">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/nSambandam.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images/nSambandam.jpg" class = "imgs mb-4" alt="" /></a>
 									<h3><a href="#">Dr. Kanchana Bhaskaran V S</a></h3>
 									<p>Pro-Vice Chancellor,VIT Chennai</p>
 								</section>
 							</div>
-                            
-						</div>
-
+            <img src = "images/42840.svg" class = "mylast">
+            </div>
 
 
 					</div>
                        
     </section>
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <footer class="ftco-footer ftco-bg-dark mt-6 ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">ICRTAC AIT</h2>
-              <p>Artificial intelligence (AI) is wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence. AI is an interdisciplinary science with multiple approaches, but advancements in machine learning and deep learning are creating a paradigm shift in virtually every sector of the tech industry.</p>
+            <div class="ftco-footer-widget mb-4 text-center">
+              <h2 class="ftco-heading-2">ICRTAC VIT</h2>
+              <p>VIT Chennai is a globally engaged, competitive research enriched campus, strategically located in a city that is one of the biggest automotive and it hubs in India. Its motto is to respond by rearing students to major industrial, social, economic and environmental demands and challenges of cosmopolitan cities in India and the world in general. This eight years old campus offers undergraduate, post graduate and research programmes and draws smart students for every state in India, through a highly competitive examination.</p>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">Contact Us</h2>
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Vellore Institute of Technology, Vandalur - Kelambakkam Road Chennai, Tamil Nadu - 600 127</span></li>
@@ -414,6 +425,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/custom.js"></script>
     
   </body>
 </html>
