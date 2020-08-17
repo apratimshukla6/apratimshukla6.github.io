@@ -56,6 +56,7 @@
   }
 }
 
+
 .cont {
   position: relative;
   left: 50%;
@@ -200,6 +201,19 @@ address {
   font-weight: bold;
 }
 
+.sub {
+  position: absolute;
+  right: 2.3em;
+  text-align: center;
+}
+
+@media(max-width: 1025px) {
+  .sub {
+    position: relative;
+    left: 1.4em;
+  }
+}
+
 .hver-nav {
   background: rgba(255,255,255,0.2);
 }
@@ -264,7 +278,7 @@ address {
   right: 0;
   bottom: 0;
   width: 100vw;
-  height: 40%;
+  height: 15%;
   z-index: -1;
 }
 
@@ -299,11 +313,27 @@ address {
 }
 
 .two {
-  top: 1160px;
+  top: 1598px;
 }  
 
 .three {
-  top: 2320px;
+  top: 3196px;
+}
+
+.four {
+  top: 4794px;
+}
+
+.five {
+  top: 6392px;
+}
+
+.six {
+  top: 7990px;
+}
+
+.seven {
+  top: 9588px;
 }
 
 .pos {
