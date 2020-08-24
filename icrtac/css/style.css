@@ -63,6 +63,10 @@
   transform: translateX(-50%);
 }
 
+.mrg {
+  margin-bottom: 5em;
+}
+
 #homepagepara{
         text-align: justify;
     display: inline-block;
