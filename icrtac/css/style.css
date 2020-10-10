@@ -232,6 +232,41 @@ address {
   transition: all 0.4s;
 }
 
+/* KeyNote Page Start */
+
+.key-row {
+  width: 80%; 
+  margin: 7em; 
+}
+
+.key-img {
+  width: 18em;
+  height: 20em;
+}
+
+#collapse1, #collapse2, #collapse3, #collapse4, #collapse5 {
+  transition: all 0.8s ease-in-out;
+}
+
+@keyframes arrow {
+  50% {
+    position: relative;
+    left: 16px;
+  }
+  100% {
+    position: relative;
+    left: -2px;
+  }
+}
+
+.lighter {
+  color: red;
+  font-weight: 100;
+  animation: arrow infinite 1s;
+}
+
+/* End */
+
 #marg {
   margin-left: 3em;
 }
